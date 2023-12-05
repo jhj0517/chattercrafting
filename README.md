@@ -13,7 +13,7 @@ You can use APIs including:
 - Encode your characters with special strings for easy sharing with others.
 
 # Architecture
-![diagram](https://github.com/jhj0517/chattercrafting/assets/97279763/9a3598ca-ef93-4a23-bec8-21ae846e6fbc)
+![diagram](https://github.com/jhj0517/chattercrafting/assets/97279763/4759246c-093d-459e-81aa-d9e1a9d9a396)
 
 # Techs
 This table details the primary patterns and packages used in this project.
