@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  Runner
+
+  Created by 이수연 on 2023/07/05.
+  
+*/
+"CFBundleDisplayName" = "チャッタークラフティング";
+"CFBundleName" = "ChatterCrafting";
+"NSPhotoLibraryUsageDescription" = "画像をアップロードするためにはアプリからの権限が必要です。";

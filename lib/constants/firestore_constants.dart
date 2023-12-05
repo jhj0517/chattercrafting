@@ -1,0 +1,33 @@
+class FirestoreConstants {
+  static const pathUserCollection = "users";
+  static const pathMessageCollection = "messages";
+  static const pathTotalTokens = "total_tokens";
+  static const pathHistory = "history";
+  static const pathConsumptions = "consumptions";
+  static const nickname = "nickname";
+  static const aboutMe = "aboutMe";
+  static const photoUrl = "photoUrl";
+  static const id = "id";
+  static const fieldUid = "uid";
+  static const chattingWith = "chattingWith";
+  static const idFrom = "idFrom";
+  static const idTo = "idTo";
+  static const timestamp = "timestamp";
+  static const content = "content";
+  static const type = "type";
+  static const userBalances = "user_balances";
+  static const userSubscription = "user_subscriptions";
+  static const backupCount = "backup_count";
+  static const totalBackupCount = "total_backup_count";
+  static const lastBackupDate = "last_backup_date";
+  static const loadCount = "load_count";
+  static const totalLoadCount = "total_load_count";
+  static const lastLoadDate = "last_load_date";
+  static const balance = "balance";
+  static const fieldIsExpired = "isExpired";
+  static const fieldStartDate = "startDate";
+  static const fieldEndDate = "endDate";
+  static const limitation = "limitation";
+  static const chattersShare = "chatters_share";
+  static const storeKeySubscription = 'subscription_pro';
+}
