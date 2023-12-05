@@ -7,6 +7,9 @@ You can use APIs including:
 - ChatGPT
 - PaLM
 
+You can also find directly this project on the
+[Playstore](https://play.google.com/store/apps/details?id=com.wecraftstudio.chattercrafting) , [Appsotre](https://apps.apple.com/app/id6450148926) too!
+
 # Feature
 - AI Chat with your own customized characters using system prompts etc in ChatGPT.
 - AI Chat with your own customized characters using instruction prompts, example prompts in PaLM.
