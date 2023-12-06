@@ -15,8 +15,8 @@ You can also find directly this project on the
 
 
 # Feature
-- AI Chat with your own customized characters using system prompts etc in ChatGPT.
-- AI Chat with your own customized characters using instruction prompts, example prompts in PaLM.
+- AI Chat with your own customized characters using your ChatGPT API.
+- AI Chat with your own customized characters using your PaLM API.
 - Encode your characters with special strings for easy sharing with others.
 
 # Architecture
