@@ -10,6 +10,10 @@ You can use APIs including:
 You can also find directly this project on the
 [Playstore](https://play.google.com/store/apps/details?id=com.wecraftstudio.chattercrafting) , [Appsotre](https://apps.apple.com/app/id6450148926) too!
 
+[![play-store-logo-github](https://github.com/jhj0517/chattercrafting/assets/97279763/282e3591-19b2-436c-a00e-0cf446ad222e)](https://play.google.com/store/apps/details?id=com.wecraftstudio.chattercrafting)
+[![appstore-logo-github](https://github.com/jhj0517/chattercrafting/assets/97279763/733813ff-733c-4146-b705-7fdd1e2560c7)](https://apps.apple.com/app/id6450148926)
+
+
 # Feature
 - AI Chat with your own customized characters using system prompts etc in ChatGPT.
 - AI Chat with your own customized characters using instruction prompts, example prompts in PaLM.
