@@ -13,7 +13,6 @@ You can also find directly this project on the
 [![play-store-logo-github](https://github.com/jhj0517/chattercrafting/assets/97279763/282e3591-19b2-436c-a00e-0cf446ad222e)](https://play.google.com/store/apps/details?id=com.wecraftstudio.chattercrafting)
 [![appstore-logo-github](https://github.com/jhj0517/chattercrafting/assets/97279763/733813ff-733c-4146-b705-7fdd1e2560c7)](https://apps.apple.com/app/id6450148926)
 
-
 # Feature
 - AI Chat with your own customized characters using your ChatGPT API.
 - AI Chat with your own customized characters using your PaLM API.
@@ -36,6 +35,18 @@ This table details the primary patterns and packages used in this project.
 | flutter_markdown | 	Enables markdown rendering in chat |
 | intl | Used for localization. This project is localized in English, Korean, and Japanese. |
 | flutter_secure_storage | 	Stores API keys securely within the app. This package implements a security algorithm to safeguard API keys. |
+
+# Flutter environment
+This project is built fine with the following environment
+```
+[√] Flutter (Channel stable, 3.13.2, on Microsoft Windows [Version 10.0.19045.3693], locale ko-KR)
+    • Flutter version 3.13.2 on channel stable at C:\FlutterSDK\flutter
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision ff5b5b5fa6 (4 months ago), 2023-08-24 08:12:28 -0500
+    • Engine revision b20183e040
+    • Dart version 3.1.0
+    • DevTools version 2.25.0
+```
 
 # License
 This project is licensed under the Apache License 2.0.
