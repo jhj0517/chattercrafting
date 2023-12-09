@@ -37,7 +37,7 @@ This table details the primary patterns and packages used in this project.
 | flutter_secure_storage | 	Stores API keys securely within the app. This package implements a security algorithm to safeguard API keys. |
 
 # Flutter environment
-This project is built fine with the following environment
+This project is built fine with the following environment:
 ```
 [√] Flutter (Channel stable, 3.13.2, on Microsoft Windows [Version 10.0.19045.3693], locale ko-KR)
     • Flutter version 3.13.2 on channel stable at C:\FlutterSDK\flutter
