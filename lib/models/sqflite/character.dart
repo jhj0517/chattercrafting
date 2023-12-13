@@ -94,56 +94,6 @@ class Character {
     );
   }
 
-  Map<String, dynamic> toShareableMap() { // should add more info about Service.
-    return {
-      SQFliteHelper.charactersColumnId: id,
-      SQFliteHelper.charactersColumnBotName: botName,
-      SQFliteHelper.charactersColumnUserName: userName,
-      SQFliteHelper.charactersColumnFirstMessage: firstMessage,
-      SQFliteHelper.charactersColumnService: service.toMap(),
-      "photoUrl": photoUrl,
-      "backgroundPhotoUrl": backgroundPhotoUrl
-    };
-  }
-
-  static String encodeToShareableCode(Character character) {
-    Map<String, dynamic> characterJson = character.toShareableMap();
-    String jsonString = json.encode(characterJson);
-
-    // Compress the data using gzip
-    List<int> compressedData = gzip.encode(utf8.encode(jsonString));
-
-    final secureKey = dotenv.get('CODE_SECURE_KEY');
-    final keyBytes = sha256.convert(utf8.encode(secureKey)).bytes;
-    final key = encrypt.Key(Uint8List.fromList(keyBytes));
-    final iv = encrypt.IV.fromLength(16);
-    final encryptor = encrypt.Encrypter(encrypt.AES(key));
-
-    // Encrypt the compressed data
-    final encryptedString = encryptor.encryptBytes(compressedData, iv: iv);
-    String shareableCode = base64Url.encode(encryptedString.bytes);
-
-    debugPrint('shareableCode length: ${shareableCode.length}');
-    return shareableCode;
-  }
-
-  static Map<String, dynamic> decodeFromShareableCode(String shareableCode) {
-    final secureKey = dotenv.get('CODE_SECURE_KEY');
-    final keyBytes = sha256.convert(utf8.encode(secureKey)).bytes;
-    final key = encrypt.Key(Uint8List.fromList(keyBytes));
-    final iv = encrypt.IV.fromLength(16);
-    final encryptor = encrypt.Encrypter(encrypt.AES(key));
-
-    final decryptedBytes = base64Url.decode(shareableCode);
-    final decryptedCompressedData = encryptor.decryptBytes(encrypt.Encrypted(decryptedBytes), iv: iv);
-
-    // Decompress the data
-    String decryptedString = utf8.decode(gzip.decode(decryptedCompressedData));
-
-    Map<String, dynamic> characterJson = json.decode(decryptedString);
-    return characterJson;
-  }
-
   @override
   String toString() {
     return 'Character(id: $id, photoBLOB: ${photoBLOB.length}, backgroundPhotoBLOB: ${backgroundPhotoBLOB.length}, botName: $botName, userName: $userName, firstMessage: $firstMessage, service: $service, photoUrl: $photoUrl, backgroundPhotoUrl: $backgroundPhotoUrl)';
