@@ -7,7 +7,7 @@ You can use APIs including:
 - ChatGPT
 - PaLM
 
-You can also find directly this project on the
+You can also find another version of this project directly on the
 [Playstore](https://play.google.com/store/apps/details?id=com.wecraftstudio.chattercrafting) , [Appsotre](https://apps.apple.com/app/id6450148926) too, if you want!
 
 [![play-store-logo-github](https://github.com/jhj0517/chattercrafting/assets/97279763/282e3591-19b2-436c-a00e-0cf446ad222e)](https://play.google.com/store/apps/details?id=com.wecraftstudio.chattercrafting)
