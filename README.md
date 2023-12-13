@@ -1,5 +1,5 @@
 # chattercrafting
-chattercrafting is a mobile AI chat project using APIs. This is built with Flutter.
+chattercrafting is a mobile AI chat project using external APIs. This is built with Flutter.
 
 ![record](https://github.com/jhj0517/chattercrafting/assets/97279763/b80644e7-fa55-4a4f-a2d2-234e2251c01a)
 
