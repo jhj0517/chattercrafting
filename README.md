@@ -16,7 +16,6 @@ You can also find another version of this project directly on the
 # Feature
 - AI Chat with your own customized characters using your ChatGPT API.
 - AI Chat with your own customized characters using your PaLM API.
-- Encode your characters with special strings for easy sharing with others.
 
 # Architecture
 ![diagram](https://github.com/jhj0517/chattercrafting/assets/97279763/4759246c-093d-459e-81aa-d9e1a9d9a396)
