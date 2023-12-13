@@ -82,13 +82,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "copyChatOption": MessageLookupByLibrary.simpleMessage("コピー"),
         "defaultCharacterBoyDescription": MessageLookupByLibrary.simpleMessage(
             "<chatter>は優しい心を持っている人です。 <chatter>は<user>の友人です。 <chatter>は常に友人の困難に共感し、耳を傾ける準備ができています。"),
-        "defaultCharacterBoyName": MessageLookupByLibrary.simpleMessage("高橋 空"),
+        "defaultCharacterBoyName":
+            MessageLookupByLibrary.simpleMessage("キャラクターB"),
         "defaultCharacterGirlDescription": MessageLookupByLibrary.simpleMessage(
             "<chatter>はエネルギーに満ち溢れており、天性の外向的な性格を持っています。 <chatter>は<user>の友達です。 <chatter>は友達と一緒に過ごし、おしゃべりをすることが大好きです。 <chatter>は他人の話に本当に興味を持っています。"),
         "defaultCharacterGirlFirstMessage":
             MessageLookupByLibrary.simpleMessage("こんにちは！お元気ですか？"),
         "defaultCharacterGirlName":
-            MessageLookupByLibrary.simpleMessage("田中 梨子"),
+            MessageLookupByLibrary.simpleMessage("キャラクターA"),
         "defaultCharacterSystemPrompt": MessageLookupByLibrary.simpleMessage(
             "<chatter>と<user>の間の会話を作成しなさい。"),
         "deleteAccount": MessageLookupByLibrary.simpleMessage("アカウント削除"),

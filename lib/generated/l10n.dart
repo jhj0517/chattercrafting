@@ -110,10 +110,10 @@ class S {
     );
   }
 
-  /// `Ava`
+  /// `Character A`
   String get defaultCharacterGirlName {
     return Intl.message(
-      'Ava',
+      'Character A',
       name: 'defaultCharacterGirlName',
       desc: '',
       args: [],
@@ -130,10 +130,10 @@ class S {
     );
   }
 
-  /// `Corbin`
+  /// `Character B`
   String get defaultCharacterBoyName {
     return Intl.message(
-      'Corbin',
+      'Character B',
       name: 'defaultCharacterBoyName',
       desc: '',
       args: [],

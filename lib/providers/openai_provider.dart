@@ -118,5 +118,4 @@ class OpenAIProvider extends ChangeNotifier {
     return numTokens;
   }
 
-
 }

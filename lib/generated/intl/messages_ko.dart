@@ -78,12 +78,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "copyChatOption": MessageLookupByLibrary.simpleMessage("복사"),
         "defaultCharacterBoyDescription": MessageLookupByLibrary.simpleMessage(
             "<chatter>는 부드러운 마음을 가진 사람이다. <chatter>는 <user>의 친구다. <chatter>는 항상 친구의 어려움에 공감하며 귀를 기울일 준비가 되어있다."),
-        "defaultCharacterBoyName": MessageLookupByLibrary.simpleMessage("최태현"),
+        "defaultCharacterBoyName":
+            MessageLookupByLibrary.simpleMessage("캐릭터 B"),
         "defaultCharacterGirlDescription": MessageLookupByLibrary.simpleMessage(
             "<chatter>는 에너지가 넘치고 본성적으로 외향적이다. <chatter>는 <user>의 친구다. <chatter>는 친구들과 어울리고 이야기하는 것을 좋아한다. <chatter>는 다른 사람들의 이야기를 듣는 것을 좋아한다."),
         "defaultCharacterGirlFirstMessage":
             MessageLookupByLibrary.simpleMessage("안녕! 잘 지냈어?"),
-        "defaultCharacterGirlName": MessageLookupByLibrary.simpleMessage("한지아"),
+        "defaultCharacterGirlName":
+            MessageLookupByLibrary.simpleMessage("캐릭터 A"),
         "defaultCharacterSystemPrompt": MessageLookupByLibrary.simpleMessage(
             "<chatter> 와 <user> 사이의 대화를 작성해라."),
         "deleteAccount": MessageLookupByLibrary.simpleMessage("회원탈퇴"),

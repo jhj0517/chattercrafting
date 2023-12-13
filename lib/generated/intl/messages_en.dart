@@ -86,13 +86,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "defaultCharacterBoyDescription": MessageLookupByLibrary.simpleMessage(
             "<chatter> has a soft heart and is an excellent listener. A friend of <user>, <chatter> is always there for their friends in times of need, ready to lend a sympathetic ear to their troubles."),
         "defaultCharacterBoyName":
-            MessageLookupByLibrary.simpleMessage("Corbin"),
+            MessageLookupByLibrary.simpleMessage("Character B"),
         "defaultCharacterGirlDescription": MessageLookupByLibrary.simpleMessage(
             "<chatter> is a lively and natural extrovert, always full of energy. A friend of <user>, <chatter> thoroughly enjoys spending time and engaging in conversations with friends. Genuine interest in listening to other people\'s stories is a hallmark of <chatter>\'s personality."),
         "defaultCharacterGirlFirstMessage":
             MessageLookupByLibrary.simpleMessage(
                 "Hey there! How have you been?"),
-        "defaultCharacterGirlName": MessageLookupByLibrary.simpleMessage("Ava"),
+        "defaultCharacterGirlName":
+            MessageLookupByLibrary.simpleMessage("Character A"),
         "defaultCharacterSystemPrompt": MessageLookupByLibrary.simpleMessage(
             "Draft a conversation between <chatter> and <user>."),
         "deleteAccount": MessageLookupByLibrary.simpleMessage("Delete Account"),
